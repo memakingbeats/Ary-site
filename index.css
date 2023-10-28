@@ -128,12 +128,104 @@ body {
        
 }
 
+.custom-container {
+      background: url('Imagens/bg3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      padding: 100px 100px; /* You can adjust the padding as needed */
+      color: rgb(0, 0, 0); /* Set text color to be visible on the background image */
+      height: 800px;
+    }
 
+    .custom-container p::before {
+      content: "→"; /* You can use any arrow character or custom content here */
+      position: absolute;
+      left: 0;
+      color: rgb(0, 0, 0); /* Set text color to be visible on the background image */
+    }
 
+.card-img{
+    width: 40px;
+    
 
+}
 
+.no-gutters{
+    padding: 20px;
+}
 
+.card-body {
+    height: 300px; /* Adjust the height as needed */
+    overflow: auto; /* Add scrollbar for longer text if needed */
+    
+}
+.card{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+}
 
+/*FOOTER*/
+            footer .contato h4 {
+                letter-spacing: 20px;
+                margin-bottom: 0px;
+                color: black;
+                font-weight: 400;
+                text-align: justify;
+                font-size: 20px;
+            }
+            footer .contato p {
+                letter-spacing: 3px;
+                margin-bottom: 0px;
+                color: black;
+                font-weight: 400;
+                text-align: justify;
+                font-size: 12px;
+            }
+
+            footer {
+                background-color: lightgray;
+                width: 100%;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            footer {
+                width: 100%;
+                padding: 20%;
+            }
+
+            .bg-color-before {
+                background-color: lightgray;
+                height: 50px;
+            }
+
+            .bg-color-after {
+                background-color: lightgray;
+                padding: 0px;
+                height: 50px;
+            }
+
+            .icon-spacing {
+                margin-right: 15px; /* Adjust the value as needed */
+            }
+
+            /* For the last icon, remove the margin to prevent extra space on the right */
+            .column-content.fcIcon a:last-child .icon-spacing {
+                margin-right: 0;
+            }
+
+            .column-content img {
+                width: 300px;
+            }
+
+            .container-fluid .column-content p {
+                margin-left: 0px;
+                font-size: 10px;
+                color: black;
+                font-weight: 400;
+                text-align: justify;
+            }
+
+            .email-icon:hover {
+                color: #0099ff;
+            }
 
 
 
@@ -176,7 +268,10 @@ body {
         padding: 10px;
     }
 
+    .custom-container {
+      padding: 50px 25px;
+      height: 1100px;
+    }
     
-
 }
 
